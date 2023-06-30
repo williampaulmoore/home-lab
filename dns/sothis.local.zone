@@ -1,0 +1,10 @@
+; replace the trust-dns.org with your own name
+@   IN          SOA     sothis.local. root.sothis.local. (
+                                199609203 ; Serial
+                                8h        ; Refresh
+                                120m      ; Retry
+                                7d        ; Expire
+                                24h)      ; Minimum TTL
+
+auth             A       172.20.2.2
+
