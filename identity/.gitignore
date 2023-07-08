@@ -1,0 +1,5 @@
+authentik
+.env
+src
+redis
+pgdata
